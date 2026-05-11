@@ -339,15 +339,12 @@ input:checked+.sldr:before{transform:translateX(20px);background:#fff}
 <div class="mov" id="balMod"><div class="modal"><div class="mtitle">💰 ব্যালেন্স পরিবর্তন</div><div style="font-size:13px;color:var(--muted);margin-bottom:16px">ইউজার: <span id="bun" style="color:#fff;font-weight:600"></span></div><div class="fg2"><div class="fg"><label>অ্যাকশন</label><select id="ba"><option value="add">➕ যোগ করুন</option><option value="sub">➖ কমান</option><option value="set">🔄 নির্ধারণ করুন</option></select></div><div class="fg"><label>পরিমাণ (৳)</label><div class="input-prefix"><span>৳</span><input type="number" id="bamt" step="0.01"></div></div></div><input type="hidden" id="bui"><div class="mrow"><button class="btn bgh" style="flex:1" onclick="cm('balMod')">বাতিল</button><button class="btn bp" style="flex:2" onclick="adjustBal()">✓ প্রয়োগ করুন</button></div></div></div>
 <div class="toast" id="toast"></div>
 <script>
-const firebaseConfig = {
-  apiKey: "AIzaSyCC6wzGfLwD19MqLofj6ddAmhPlqEPF_hg",
-  authDomain: "earnexo.firebaseapp.com",
-  databaseURL: "https://earnexo-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "earnexo",
-  storageBucket: "earnexo.firebasestorage.app",
-  messagingSenderId: "461455515259",
-  appId: "1:461455515259:web:818656fd67ef842f0f8cde"
-};
+
+
+
+
+
+
 let AU={},AW={},wdf='all',wcCount=1,wdCount=1;
 
 // ── Today's Ads Helper ──
